@@ -8,24 +8,50 @@
 包括 `.gitignore` 也可以自动生成，通过`fs`来写入文件生成嘛
 
 ## 主要的技术选项
-- 编写JavaScript 选型：React
+- 编写 JavaScript 选型：React
+
 - 使用 TypeScript
+
 - 接口请求 Axios
+
 - 路由 react-router  
+
 - 打包工具 Webpack 
+
 - CSS 的选型
   - POST-CSS 好像用的挺少的
   - Less
   - SCSS
+  
 - 组件库 
   >需要调研一下，如何做数据验证，如何主题自定义，是否支持分包加载
   - antd 
+  
 - 数据管理
     - Mobx 
-    - Redux + thunk
+    - Redux + thunk / saga
+    
 - 是否需要使用模板
+
 - 是否需要使用后端渲染，如果需要，那么如何选择框架？Next？
+
 - 常用的库，如 lodash / hooks相关的库  
+
 - 设置代码规范 eslint
-- 代码提交规范前检测 husky
+
+- 代码提交代码规范前检测 husky
+
+- 代码提交的commit 检测 [commitlint](https://github.com/conventional-changelog/commitlint)
+
 - 文件目录规范
+
+- npm 的开发规范
+
+    - init 初始化项目
+    - Compile 编译
+    - start 启动项目
+    - Docs 项目文档
+    - test 测试
+    - publish 发布
+
+- 还有什么最佳实践可以看看
