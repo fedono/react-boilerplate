@@ -5,10 +5,16 @@
 > 参考 [awesome-react-boilerplate](https://linghucong.js.org/awesome-react-boilerplate/)
 
 技术选型选好之后，可以建立一个 cli 的形式，通过选取每个方向对应的库来自动拉去npm包，这样就可以快速初始化了
-包括 `.gitignore` 也可以自动生成，通过`fs`来写入文件生成嘛
+包括 `.gitignore` 也可以自动生成，通过`fs`来写入文件生成嘛ls
 
 ## 主要的技术选项
+<<<<<<< HEAD
 - 编写 JavaScript 选型：React
+=======
+- 编写JavaScript 选型：React
+
+    - 选型 React 和 VUE 的区别
+>>>>>>> add css
 
 - 使用 TypeScript
 
@@ -19,17 +25,33 @@
 - 打包工具 Webpack 
 
 - CSS 的选型
+
+  > 说一下 less / css-in-js / css module 的区别
+
   - POST-CSS 好像用的挺少的
   - Less
   - SCSS
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> add css
 - 组件库 
   >需要调研一下，如何做数据验证，如何主题自定义，是否支持分包加载
+  > 1. 是否长期维护，提交频率是否频繁
+  > 2. 组件是否完善
+  > 3. 自定义程序是否完善
+  > 4. 是否支持分包，主题自定义
+  > 5. 
   - antd 
   
 - 数据管理
     - Mobx 
+<<<<<<< HEAD
     - Redux + thunk / saga
+=======
+    - Redux + thunk
+>>>>>>> add css
     
 - 是否需要使用模板
 
@@ -39,6 +61,7 @@
 
 - 设置代码规范 eslint
 
+<<<<<<< HEAD
 - 代码提交代码规范前检测 husky
 
 - 代码提交的commit 检测 [commitlint](https://github.com/conventional-changelog/commitlint)
@@ -55,3 +78,16 @@
     - publish 发布
 
 - 还有什么最佳实践可以看看
+=======
+- 代码提交规范前检测 husky
+
+- 文件目录规范
+
+
+
+## 哪些配置是和业务选型有关的，哪些是和业务类型无关的
+
+- 和业务类型有关
+  - 是否采用 服务端渲染
+  - 组件库选型
+>>>>>>> add css
