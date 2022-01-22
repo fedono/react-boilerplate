@@ -24,7 +24,8 @@
 
   > 说一下 less / css-in-js / css module 的区别
 
-  - POST-CSS 好像用的挺少的
+  - POST-CSS 好像用的挺少的，
+    一般直接用的会少一点，
   - Less
   - SCSS
   
