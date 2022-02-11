@@ -29,7 +29,6 @@
   - Less
   - SCSS
   
-
 - 组件库 
   >需要调研一下，如何做数据验证，如何主题自定义，是否支持分包加载
   > 1. 是否长期维护，提交频率是否频繁
@@ -51,6 +50,8 @@
 
 - 设置代码规范 eslint
 
+    - [最全的前端Linter代码风格上手指南](https://github.com/haixiangyan/linter-guide)
+
 - 代码提交代码规范前检测 husky
 
 - 代码提交的commit 检测 [commitlint](https://github.com/conventional-changelog/commitlint)
@@ -67,6 +68,7 @@
     - publish 发布
 
 - 还有什么最佳实践可以看看
+
 - 代码提交规范前检测 husky
 
 - 文件目录规范
