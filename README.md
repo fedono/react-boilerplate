@@ -2,10 +2,16 @@
 
 > 这个 repo 主要是以 React 为核心，开始往周边拓展库的一个项目启动\
 > 不同的技术方案，可以通过 Branch 来进行管理
-> 参考 [awesome-react-boilerplate](https://linghucong.js.org/awesome-react-boilerplate/)
+> 参考 [awesome-react-boilerplate](https://linghucong.js.org/awesome-react-boilerplate/) 
+>
+> antd的脚手架市场  http://scaffold.ant.design/
 
 技术选型选好之后，可以建立一个 cli 的形式，通过选取每个方向对应的库来自动拉去npm包，这样就可以快速初始化了
 包括 `.gitignore` 也可以自动生成，通过`fs`来写入文件生成嘛ls
+
+> 一个项目的技术选型其实也就是如何做好一个框架了，这个框架要怎么来设计
+>
+> 所以参考下当前业界的各个框架的设计
 
 ## 主要的技术选项
 - 编写JavaScript 选型：React
